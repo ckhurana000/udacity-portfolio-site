@@ -69,6 +69,15 @@ body {
     margin: 20px 0;
 }
 
+.social-links a {
+	margin: 0 20px 0 0;
+	color: darkgrey;
+	text-decoration-color: all;
+}
+
+.social-links a:hover {
+	color: grey;
+}
 
 /* ==========================================================================
     RESPONSIVE
@@ -84,5 +93,10 @@ body {
 		display: block;
 		margin-right: auto;
 		margin-left: auto;
+	}
+
+	.footer > * {
+		text-align: center;
+		margin: 5px 0;
 	}
 }
